@@ -3,7 +3,7 @@ Version:        2.2.2
 Release:        %mkrel 1
 Summary:        Extract headers from rpm in a old yum repository
 License:        GPL
-Group:          System Environment/Base
+Group:          System/Configuration/Packaging
 URL:            http://linux.duke.edu/yum/
 Source0:        http://linux.duke.edu/projects/yum/download/2.2/yum-%{version}.tar.gz
 Patch1:         yum-arch-folder.patch
