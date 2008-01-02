@@ -13,6 +13,7 @@ Requires:       python-libxml2
 BuildRequires:  python
 BuildRequires:  gettext
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Extract headers from rpm in a old yum repository.
