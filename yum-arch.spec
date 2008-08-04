@@ -1,6 +1,6 @@
 Name:           yum-arch
 Version:        2.2.2
-Release:        %mkrel 1
+Release:        %mkrel 3
 Summary:        Extract headers from rpm in a old yum repository
 License:        GPL
 Group:          System/Configuration/Packaging
