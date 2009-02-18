@@ -1,12 +1,13 @@
 Name:           yum-arch
 Version:        2.2.2
-Release:        %mkrel 4
+Release:        %mkrel 5
 Summary:        Extract headers from rpm in a old yum repository
 License:        GPL
 Group:          System/Configuration/Packaging
 URL:            http://linux.duke.edu/yum/
 Source0:        http://linux.duke.edu/projects/yum/download/2.2/yum-%{version}.tar.gz
 Patch1:         yum-arch-folder.patch
+Patch2:         yum-arch-python26.patch
 Requires:       python
 Requires:       python-rpm
 Requires:       python-libxml2
@@ -25,6 +26,7 @@ and RedHat Enterprise Linux < 4.
 %prep
 %setup -q -n yum-%{version}
 %patch1 -p0 -b .folder
+%patch2 -p0
 
 # to avoid rpmlint warnings
 for source in *.py {repomd,rpmUtils,yum}/*.py; do
