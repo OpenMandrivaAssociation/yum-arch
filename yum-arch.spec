@@ -4,7 +4,7 @@ Release:        7
 Summary:        Extract headers from rpm in a old yum repository
 License:        GPL
 Group:          System/Configuration/Packaging
-URL:            http://linux.duke.edu/yum/
+URL:            https://linux.duke.edu/yum/
 Source0:        http://linux.duke.edu/projects/yum/download/2.2/yum-%{version}.tar.gz
 Patch1:         yum-arch-folder.patch
 Patch2:         yum-arch-python26.patch
